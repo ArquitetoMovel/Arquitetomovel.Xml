@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetomovel.Xml", "Arquitetomovel.Xml\Arquitetomovel.Xml.csproj", "{76545686-24FB-4DE6-BD7B-69AD4A4E182A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arquitetomovel.Xml.Test", "Arquitetomovel.Xml.Test\Arquitetomovel.Xml.Test.csproj", "{EB2827C8-0F95-4830-B745-A0462BA6D2AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76545686-24FB-4DE6-BD7B-69AD4A4E182A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76545686-24FB-4DE6-BD7B-69AD4A4E182A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76545686-24FB-4DE6-BD7B-69AD4A4E182A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76545686-24FB-4DE6-BD7B-69AD4A4E182A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2827C8-0F95-4830-B745-A0462BA6D2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2827C8-0F95-4830-B745-A0462BA6D2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2827C8-0F95-4830-B745-A0462BA6D2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2827C8-0F95-4830-B745-A0462BA6D2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

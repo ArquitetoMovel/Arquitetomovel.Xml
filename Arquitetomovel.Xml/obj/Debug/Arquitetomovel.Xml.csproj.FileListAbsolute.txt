@@ -1,0 +1,5 @@
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml\bin\Debug\Arquitetomovel.Xml.dll
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml\bin\Debug\Arquitetomovel.Xml.pdb
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml\obj\Debug\Arquitetomovel.Xml.csprojResolveAssemblyReference.cache
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml\obj\Debug\Arquitetomovel.Xml.dll
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml\obj\Debug\Arquitetomovel.Xml.pdb

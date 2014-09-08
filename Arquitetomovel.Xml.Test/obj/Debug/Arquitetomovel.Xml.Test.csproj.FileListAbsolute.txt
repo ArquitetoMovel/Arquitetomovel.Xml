@@ -1,0 +1,7 @@
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml.Test\obj\Debug\Arquitetomovel.Xml.Test.csprojResolveAssemblyReference.cache
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml.Test\bin\Debug\Arquitetomovel.Xml.Test.dll
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml.Test\bin\Debug\Arquitetomovel.Xml.Test.pdb
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml.Test\bin\Debug\Arquitetomovel.Xml.dll
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml.Test\bin\Debug\Arquitetomovel.Xml.pdb
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml.Test\obj\Debug\Arquitetomovel.Xml.Test.dll
+X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml.Test\obj\Debug\Arquitetomovel.Xml.Test.pdb
