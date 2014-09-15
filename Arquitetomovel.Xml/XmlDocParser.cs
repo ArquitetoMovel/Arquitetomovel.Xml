@@ -10,13 +10,13 @@ using System.Xml.Serialization;
 namespace Arquitetomovel.Xml
 {
     [Serializable]
-    public abstract class XmlSerializer : IDisposable
+    public abstract class XmlDocParser : IDisposable
     {
         private static XmlDocument XmlDoc { get; set; }
 
         //public XmlDoc2Object(string xmlFilePath) { }
 
-        public void Serialize(string xmlFilePath)
+        public void ParseToXml(string xmlFilePath)
         {
             var _realObj = this;
             XmlDoc = ReadXml(xmlFilePath);
@@ -25,7 +25,7 @@ namespace Arquitetomovel.Xml
             XmlDoc.Save(xmlFilePath);
         }
 
-        public XmlSerializer Deserialize(string xmlFilePath)
+        public XmlDocParser ParseToObj(string xmlFilePath)
         {
             var _realObj = this;
             XmlDoc = ReadXml(xmlFilePath);
@@ -58,13 +58,13 @@ namespace Arquitetomovel.Xml
             return _xmlDoc;
         }
 
-        public async Task<XmlSerializer> DeserializeAsync(string xmlFilePath)
+        public async Task<XmlDocParser> ParseToObjAsync(string xmlFilePath)
         {
             return
             await
-            Task.Run<XmlSerializer>(() =>
-                  { return Deserialize(xmlFilePath); }
-                );
+            Task.Run<XmlDocParser>(() =>
+                { return ParseToObj(xmlFilePath); }
+            );
         }
 
         public void Dispose()
