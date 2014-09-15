@@ -9,11 +9,11 @@ namespace Arquitetomovel.Xml.Test
         [TestMethod]
         public void TestMethod1()
         {
-            var proj = new ProjectTest();
-            var path = @"X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml.Test\Arquitetomovel.Xml.Test.csproj";
-            var data = proj.Deserialize(path);
+            var proj = new Project();
+            var path = @"X:\Source\Arquitetomovel.Xml\Arquitetomovel.Xml\xmlDocTest.xml";
+            var data = proj.LoadObject(path);
 
-            data.Serialize(path);
+            //data.Serialize(path);
 
         }
     }
